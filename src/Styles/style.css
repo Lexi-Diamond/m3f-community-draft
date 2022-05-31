@@ -30,18 +30,10 @@ video{
   font-weight: 700;
 }
 
-button{
-  color: black;
+.navbar-button:nth-child(3){
+  margin-right: 2px;
 }
 
 
+/* Navbar styling end */
 
-
-/* extra  */
-
-
-.toolbar-tip {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
