@@ -33,3 +33,15 @@ video{
 button{
   color: black;
 }
+
+
+
+
+/* extra  */
+
+
+.toolbar-tip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
