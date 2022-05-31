@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Community from './Community';
-import InvalidPage  from './components/Invalid404';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Community from './pages/Community.jsx';
+// import InvalidPage  from './components/Invalid404';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
 
@@ -14,8 +14,8 @@ function App() {
         <Routes>
           <Route path='/'
             element={<Community />} />
-            <Route path='*'
-            element={<InvalidPage />} />
+            {/* <Route path='*'
+            element={<InvalidPage />} /> */}
         </Routes>
         <Footer />
       </Router>
