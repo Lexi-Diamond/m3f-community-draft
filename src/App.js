@@ -17,7 +17,7 @@ function App() {
             {/* <Route path='*'
             element={<InvalidPage />} /> */}
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );

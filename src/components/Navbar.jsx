@@ -31,6 +31,7 @@ const Navbar = () => {
         <Toolbar disableGutters >
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
+            className='navbar-font'
             variant="h6"
             noWrap
             component="a"
@@ -87,6 +88,7 @@ const Navbar = () => {
           </Box>
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
+            className='navbar-font'
             variant="h5"
             noWrap
             component="a"
@@ -110,7 +112,7 @@ const Navbar = () => {
               className='navbar-button'
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, mx: 5, color: 'black', display: 'block', fontWeight: 700, fontSize: '1.2rem' }}
+                sx={{ my: 2, mx: 5, color: 'black', display: 'block', fontWeight: 700, fontSize: '1.2rem', fontFamily: 'Concert One', letterSpacing: '.3rem' }}
               >
                 {page}
               </Button>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -96,9 +98,9 @@ padding: 0 40px 20px 40px;
   padding: 5%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color:  #1a1a1a;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
+  font-family: 'Concert One', cursive;
 }
 
 .card-btn {
@@ -154,3 +156,6 @@ padding: 0 40px 20px 40px;
 }
 
 /* Cards styling End */
+
+
+
