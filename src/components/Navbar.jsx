@@ -76,12 +76,16 @@ const Navbar = () => {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'block', md: 'none' }
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                <MenuItem
+                 sx={{
+                   padding:"4rem"
+                   }} 
+                   key={page} onClick={handleCloseNavMenu}>
+                  <Typography fontFamily= 'Concert One' textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
