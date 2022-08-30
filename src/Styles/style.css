@@ -9,6 +9,7 @@
 .container{
   width: 100%;
   height: 100vh;
+  position: relative;
 }
 
 video{
@@ -125,7 +126,7 @@ padding: 0 40px 20px 40px;
   background-color: #666699;
 }
 
-@media (max-width: 767px){
+@media only screen and (max-width: 767px){
 .my-card {
     margin: 0 0 20px 0;
     }
@@ -149,16 +150,26 @@ padding: 0 40px 20px 40px;
 
 .inner-text{
   position: absolute;
-  top: 26%;
+  bottom: 16%;
   left: 1rem;
 }
 
 .outter-text{
   position: absolute;
-  top: 26%;
+  bottom: 6%;
   right: 1rem;
 }
 
+
+@media only screen and (max-width: 899px) {
+  .img-place {
+    display: none;
+  }
+
+  .card-text{
+    background-color: wheat;
+  }
+}
 /* Cards styling End */
 
 
